@@ -1,10 +1,17 @@
+/*
+Author: Bharath Bairy (instagram: @akabharathbairy)
+Date modified: 17-07-2023
+Time modified: 01:33 PM GMT+5:30
+*/
+
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("*** BMI CALCULATOR ***");
-        while(true){
+        
+        while(true) {
             try {
                 System.out.print("Enter your weight in KG: ");
                 int weight = s.nextInt();
